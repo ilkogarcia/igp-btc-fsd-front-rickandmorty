@@ -1,11 +1,20 @@
 // Import layouts needed
-import { Characters } from '../layout/Characters'
+import { Characters } from './Characters'
+import { Header } from './Header'
+import { Footer } from './Footer'
 
 // Import data needed
 import { charactersData } from '../database/Data'
 
+// Import stylesheet
+import './Home.css'
+
 export const Home = () => {
   return (
-    <Characters charactersList={charactersData}/>
+    <>
+      <Header />
+      <Characters charactersList={charactersData} />
+      <Footer />
+    </>
     )
 }

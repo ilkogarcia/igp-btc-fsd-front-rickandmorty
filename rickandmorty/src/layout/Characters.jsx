@@ -1,4 +1,4 @@
-// Import react-bootstrap components
+// Import React-Bootstrap components
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -12,9 +12,9 @@ import './Characters.css'
 export const Characters = ({charactersList}) => {
   return (
     <>
-    <Container fluid>
+    <Container fluid className='charactersGrid'>
       <Row className='gx-2 gy-2'>
-          {charactersList.map(character => { return <Col><Character key={character.id} characterData={character}/></Col>})}
+          {charactersList.map(character => { return <Col key={character.id}><Character characterData={character}/></Col>})}
       </Row>
     </Container>
     </>

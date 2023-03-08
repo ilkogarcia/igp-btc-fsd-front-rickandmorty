@@ -1,0 +1,7 @@
+/* Styles for Footer section layout */
+
+.darkFooter {
+    padding: 20px 10px 20px 10px ;
+    background-color: rgba(var(--bs-dark-rgb));
+    color: whitesmoke;
+}

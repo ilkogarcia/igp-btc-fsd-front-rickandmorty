@@ -1,8 +1,5 @@
-//Imports React library
-import React from 'react'
-
 // Imports stylesheets
-import './Signin.css'
+import './Singin.css'
 
 // Imports React-Bootstrap components
 import Container from 'react-bootstrap/Container';
@@ -14,22 +11,19 @@ import { Login } from '../components/Login';
 
 export const Singin = () => {
     return (
-        <Container>
-            <Row xs="auto">
-                <Col>
-                    <h1>The Rick And Morty API Frontend</h1>
-                </Col>
-            </Row>
-            <Row xs="auto">
-                <Col xs={12}>
-                    <Login />
-                </Col>
-            </Row>
-            <Row xs="auto">
-                <Col xs={12}>
-                    <p>Aquí va el pie que querramos</p>
-                </Col>
-            </Row>
+        <Container className="signInPage">
+            <Container>
+                <Row>
+                    <Col xs={6}>
+                        <Login />
+                    </Col>
+                    <Col xs={4}>
+                        <h1 className='pageTitle'>Rick & Morty API</h1>
+                        <p className='pageText'>I have created this application with the objective of learning how to develop with React.js. In it we are going to play a bit with the public API of "The Rick and Morty API".</p>
+                        <p className='smallText'>This API created by Axel Fuhrmann is open source and uses a BSD license.</p>
+                    </Col>
+                </Row>
+            </Container>
         </Container>
     );
 }

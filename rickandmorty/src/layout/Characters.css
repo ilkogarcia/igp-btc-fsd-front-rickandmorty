@@ -1,4 +1,5 @@
-body {
-    margin: 0;
-    background-color: whitesmoke;
+/* Styles for Characters grid section layout */
+
+.charactersGrid {
+    padding: 30px 15px 30px 15px;
 }

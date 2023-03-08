@@ -12,7 +12,7 @@ export const Character = ({characterData}) => {
             <Card.Body>
                 <Card.Title>{characterData.name}</Card.Title>
                 <Card.Text>Status: {characterData.status} <br /> Species: {characterData.species}</Card.Text>
-                <Button variant="primary">Characacter details</Button>
+                <Button variant="primary" size="lg">Detailed information</Button>
             </Card.Body>
         </Card>
         );
