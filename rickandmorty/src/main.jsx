@@ -9,6 +9,13 @@ import './index.css'
 import { RouterProvider } from 'react-router-dom'
 import { routes } from './routes/root'
 
+import WebFont from 'webfontloader'
+WebFont.load({
+  google: {
+    families: ['Droid Sans', 'Creepster']
+  }
+});
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router = { routes }/>

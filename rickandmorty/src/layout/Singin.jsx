@@ -19,8 +19,8 @@ export const Singin = () => {
                     </Col>
                     <Col xs={4}>
                         <h1 className='pageTitle'>Rick & Morty API</h1>
-                        <p className='pageText'>I have created this application with the objective of learning how to develop with React.js. In it we are going to play a bit with the public API of "The Rick and Morty API".</p>
-                        <p className='smallText'>This API created by Axel Fuhrmann is open source and uses a BSD license.</p>
+                        <p className='pageText'>To access you must provide your credentials.</p>
+                        <p className='pageSmallText'>This API created by Axel Fuhrmann is open source and uses a BSD license.</p>
                     </Col>
                 </Row>
             </Container>

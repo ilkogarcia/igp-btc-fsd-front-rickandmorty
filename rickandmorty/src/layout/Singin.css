@@ -12,23 +12,28 @@
 }
 
 .pageTitle {
+    font-family: 'Creepster';
     font-size: 4.8rem;
+    line-height: 1;
+    color: #E1341E;
+    text-align: left;
+    text-shadow: 1px 1px 2px white;
+  }
+  
+  .pageText {
+    font-size: 1.5rem;
     line-height: 1;
     color: white;
     text-align: left;
+    font-weight: bolder;
     text-shadow: 1px 1px 2px black;
-}
-
-.pageText {
-    font-size: 1rem;
+  }
+  
+  .pageSmallText {
+    font-size: 0.8rem;
     line-height: 1;
-    color: whitesmoke;
+    color: white;
     text-align: left;
-}
-
-.smallText {
-    font-size: 0.8 rem;
-    line-height: 1;
-    color: whitesmoke;
-    text-align: left;
-}
+    font-weight: bolder;
+  }
+  
