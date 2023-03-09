@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // Import components needed to build header
-import { Menu } from '../components/Menu'
+import { Menu } from '../../components/Menu'
 
 // Import stylesheet
 import './Header.css'

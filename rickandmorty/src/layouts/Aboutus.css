@@ -1,0 +1,8 @@
+/* Styles for AboutUs page layout */
+.aboutUsContainer{
+    margin: 0;
+    padding: 30px 20px 30px 20px;
+    background-color: whitesmoke;
+    color: grey;
+    min-height: 50vh;
+}

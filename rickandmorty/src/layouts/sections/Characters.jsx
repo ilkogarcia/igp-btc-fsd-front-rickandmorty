@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // Import components needed
-import { Character }  from '../components/Character'
+import { Character }  from '../../components/Character'
 
 // Import stylesheet
 import './Characters.css'

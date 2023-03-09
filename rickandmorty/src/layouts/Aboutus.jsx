@@ -1,6 +1,6 @@
 // Import layouts needed
-import { Header } from './Header'
-import { Footer } from './Footer'
+import { Header } from './sections/Header'
+import { Footer } from './sections/Footer'
 
 // Import React-Bootstrap components
 import Container from 'react-bootstrap/Container';

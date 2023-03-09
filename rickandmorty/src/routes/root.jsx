@@ -2,10 +2,10 @@
 import { createBrowserRouter } from "react-router-dom";
 
 // Import app specific components
-import { Home } from "../layout/Home";
-import { Singin } from "../layout/Singin";
-import { Signup } from "../layout/Signup";
-import { Aboutus } from "../layout/Aboutus";
+import { Home } from "../layouts/Home";
+import { Singin } from "../layouts/Singin";
+import { Signup } from "../layouts/Signup";
+import { Aboutus } from "../layouts/Aboutus";
 
 // Define and export app routes
 export const routes = createBrowserRouter([

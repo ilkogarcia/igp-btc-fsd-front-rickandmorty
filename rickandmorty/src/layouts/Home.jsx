@@ -1,7 +1,7 @@
 // Import layouts needed
-import { Characters } from './Characters'
-import { Header } from './Header'
-import { Footer } from './Footer'
+import { Characters } from './sections/Characters'
+import { Header } from './sections/Header'
+import { Footer } from './sections/Footer'
 
 // Import data needed
 import { charactersData } from '../database/Data'
