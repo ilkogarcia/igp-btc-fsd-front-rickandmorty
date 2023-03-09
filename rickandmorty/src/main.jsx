@@ -1,15 +1,17 @@
-// Import React library and virtual DOM
+// Import React library
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-// Import stylesheet
+// Import other librarys
+import { BrowserRouter } from "react-router-dom";
+import WebFont from 'webfontloader'
+
+// Imports App layouts and components
+import { MainApp } from './layouts/MainApp'
+
+// Import App stylesheet
 import './index.css'
 
-// Import React Router library
-import { RouterProvider } from 'react-router-dom'
-import { routes } from './routes/root'
-
-import WebFont from 'webfontloader'
 WebFont.load({
   google: {
     families: ['Droid Sans', 'Creepster']
@@ -18,6 +20,8 @@ WebFont.load({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router = { routes }/>
+    <BrowserRouter>
+      <MainApp />
+    </BrowserRouter>
   </React.StrictMode>,
 )
