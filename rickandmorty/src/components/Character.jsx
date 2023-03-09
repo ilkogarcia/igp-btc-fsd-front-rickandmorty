@@ -21,7 +21,7 @@ export const Character = ({characterData}) => {
                 <Button className="button is-large" onClick={handleShow}>
                     Detailed information
                 </Button>
-                <Popup show={show} onClose={handleClose}/>
+                <Popup show={show} onClose={handleClose} characterInfo={characterData}/>
             </Card.Body>
         </Card>
         );
