@@ -1,5 +1,9 @@
 /* Styles for Characters grid section layout */
-
 .charactersGrid {
+    margin: 0;
     padding: 30px 15px 30px 15px;
+    min-width: 100vw;
+    min-height: 80vh;
+    background-color: whitesmoke;
+    color: grey;
 }

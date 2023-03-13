@@ -1,7 +1,9 @@
 /* Styles for Footer section layout */
-
 .darkFooter {
+    margin: 0;
     padding: 20px 10px 20px 10px ;
+    min-width: 100vw;
+    min-height: 40vh;
     background-color: rgba(var(--bs-dark-rgb));
     color: whitesmoke;
 }

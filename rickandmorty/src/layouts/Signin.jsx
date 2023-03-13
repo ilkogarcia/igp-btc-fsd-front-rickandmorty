@@ -11,19 +11,23 @@ import { Login } from '../components/Login';
 
 export const Signin = () => {
     return (
-        <Container className="signInPage">
-            <Container>
-                <Row>
-                    <Col xs={6}>
-                        <Login />
-                    </Col>
-                    <Col xs={4}>
-                        <h1 className='pageTitle'>Rick & Morty API</h1>
-                        <p className='pageText'>Provide your credentials to access.</p>
-                        <p className='pageSmallText'>This API created by Axel Fuhrmann is open source and uses a BSD license.</p>
-                    </Col>
-                </Row>
-            </Container>
+        <Container fluid className="signInPage">
+            <Row>
+                <Col>
+                    <Container>
+                        <Row>
+                            <Col xs={6}>
+                                <Login />
+                            </Col>
+                            <Col xs={4}>
+                                <h1 className='pageTitle'>Rick & Morty API</h1>
+                                <p className='pageText'>Provide your credentials to access.</p>
+                                <p className='pageSmallText'>This API created by Axel Fuhrmann is open source and uses a BSD license.</p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </Col>
+            </Row>
         </Container>
     );
 }

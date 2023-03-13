@@ -1,15 +1,11 @@
-// Import layouts needed
-import { Header } from './sections/Header'
-import { Footer } from './sections/Footer'
+// Import stylesheets
+import './Aboutus.css'
 
 // Import React-Bootstrap components
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
-
-// Import stylesheets
-import './Aboutus.css'
 
 // Import assets
 import imgSample from '../assets/156.jpeg'
@@ -18,7 +14,7 @@ import imgSample from '../assets/156.jpeg'
 export const Aboutus = () => {
   return (
     <>
-      <Container fluid className='aboutUsContainer'>
+      <Container fluid className='aboutUsPage'>
       <Row className="justify-content-md-center">
           <Col xs={12} lg={7}>
               <h1>About us...</h1>
