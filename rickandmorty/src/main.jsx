@@ -14,7 +14,7 @@ import './index.css'
 
 WebFont.load({
   google: {
-    families: ['Droid Sans', 'Creepster']
+    families: ['Droid Sans', 'Creepster', 'Smokum']
   }
 });
 

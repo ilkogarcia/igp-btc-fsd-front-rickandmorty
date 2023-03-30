@@ -13,7 +13,7 @@ export const Character = ({characterData}) => {
     const handleClose = () => setShow(false);
     
     return (
-        <Card style={{ width: '15rem' }}>
+        <Card style={{ width: '14rem' }}>
             <Card.Img variant="top" src={characterData.image} />
             <Card.Body>
                 <Card.Title>{characterData.name}</Card.Title>
